@@ -10,6 +10,8 @@ It does not dump every file into one huge prompt. It picks the most useful files
 - Zero runtime dependencies. Node.js 20+.
 - Never modifies your source files.
 
+**Repository:** [github.com/Sameera-MHK/repo-brief](https://github.com/Sameera-MHK/repo-brief) · **Owner:** sameera_mhk
+
 ## Installation
 
 ```bash
@@ -181,11 +183,11 @@ Pattern-based detection cannot catch every secret. Review the generated brief be
 
 ## Contributing
 
-Contributions are welcome.
+Contributions are welcome. Please open an issue or pull request at [github.com/Sameera-MHK/repo-brief](https://github.com/Sameera-MHK/repo-brief/issues).
 
 ```bash
-git clone <your fork>
-cd repobrief
+git clone git@github.com:Sameera-MHK/repo-brief.git
+cd repo-brief
 npm test
 node bin/repobrief.js analyze .
 ```
@@ -194,7 +196,10 @@ node bin/repobrief.js analyze .
 - Add tests for new behaviour; tests create temporary repositories in `test/helpers.js`.
 - Keep output evidence-based: don't report a framework or convention without a file that supports it.
 
+## Author
+
+Maintained by **sameera_mhk** ([@Sameera-MHK](https://github.com/Sameera-MHK)).
+
 ## License
 
-[MIT](LICENSE)
-# repo-brief
+[MIT](LICENSE) © sameera_mhk

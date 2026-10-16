@@ -1,0 +1,44 @@
+{
+  "name": "repobrief-cli",
+  "version": "0.1.0",
+  "description": "Generate a structured, token-conscious Markdown brief of a repository for AI coding assistants.",
+  "author": "sameera_mhk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sameera-MHK/repo-brief.git"
+  },
+  "homepage": "https://github.com/Sameera-MHK/repo-brief#readme",
+  "bugs": {
+    "url": "https://github.com/Sameera-MHK/repo-brief/issues"
+  },
+  "type": "module",
+  "bin": {
+    "repobrief": "bin/repobrief.js"
+  },
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "ai",
+    "llm",
+    "context",
+    "claude",
+    "cursor",
+    "repository",
+    "cli",
+    "markdown"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+node_modules/
+coverage/
+*.tgz
+.env
+.env.*
+repobrief.md
+repobrief.json
+.DS_Store
+projectPlan.md
