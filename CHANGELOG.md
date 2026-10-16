@@ -2,6 +2,10 @@
 
 All notable changes to this project are documented in this file.
 
+## 0.1.1
+
+- First public npm release (0.1.0 was reserved by a staged publish and could not be reused).
+
 ## 0.1.0
 
 Initial release.
